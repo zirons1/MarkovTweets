@@ -6,6 +6,7 @@
 
 using namespace std;
 
+//Testing using system calls inside the code and piping output to text file to read later
 int main(){
 	string FILE_NAME = "text.txt";
 	
