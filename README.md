@@ -15,6 +15,7 @@ The map data structure is traversed until an end line character is found or the 
 
 ### Running the Code
 Running this code requires a Twitter Developer's license with consumer keys and authentivation tokens.
+
 To run this code compile `json_reader.py` and add the Twitter user's handle as a command line argument as shown below.
 ```
 python json_reader.py [handle]
