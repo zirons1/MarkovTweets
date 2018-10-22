@@ -10,7 +10,7 @@ This application is compatible with Twitter's extended tweet format of 280 chara
 
 ### Markov Chains
 This application uses [Markov Chains](https://en.wikipedia.org/wiki/Markov_chain) to generate text realistic to the specified user.
-The tweets recorded from `json_reader.py` are saved into a .txt file, parsed by the C++ file `markov.cc,` and stored in a map data structure.
+The tweets recorded from `json_reader.py` are saved into a .txt file, parsed by the C++ file `markov.cc`, and stored in a map data structure.
 The map data structure is traversed until an end line character is found or the tweet becomes too long.
 
 ### Running the Code
